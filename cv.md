@@ -39,11 +39,12 @@ for (let i = 2; i <= n; i++) {
 }
 ```
 
-## Education <br/>
+## Education
 - RS-School 
   - stage#0 (*in the progress*)
 - MFEC (Minsk Financial Economic College)
   - Taxes and taxation
+  
 ## Languages 
 - English - A2<br/>
 - Russian - Native 
