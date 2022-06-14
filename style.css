@@ -9,10 +9,10 @@
 }
 
 body {
-    background: #D2B48C;
+    background: #FAEBD7;
     font-size: 14px;
     line-height: 23px;
-    color: #696969;
+    color: #fff;
 }
 
 .bold{
@@ -34,8 +34,8 @@ body {
 }
 
 .cv .cv_left{
-    width: 280px;
-    background: #FAEBD7;
+    width: 280px; 
+    background: #D2B48C;
 }
 
 .cv .cv_left .cv_profile{
@@ -51,3 +51,75 @@ body {
 .cv .cv_left .cv_content{
     padding: 0 25px;
 }
+
+.cv .title {
+    margin-bottom: 20px;
+    color: #FFFFFF
+}
+
+.cv .cv_left .bold {
+    color: #fff;
+}
+
+.cv .cv_point{
+    padding: 25px 0;
+    border-bottom: 2px solid #fff;
+}
+
+.cv .cv_left .cv_point:last-child {
+    border-bottom: 0px;
+}
+
+.cv .cv_left  ul  li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cv .cv_left  ul  li:last-child {
+    margin-bottom: 0;
+}
+
+.cv .cv_left  ul  li .icon {
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    color: #D2B48C;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 16px;
+    position: relative;
+}
+
+.cv .icon i{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    right: 30px;
+    transform: translate(-20%,20%);
+}
+
+.cv .cv_left .cv_skill ul  li {
+    color:#D2B48C
+    justify-content: space-between;
+}
+
+.cv .cv_left .cv_skill ul  li .skill_name {
+    width: 25%;
+}
+
+.cv .cv_left .cv_skill ul  li .skill_progress {
+    width: 60x;
+    margin: 0 5px;
+    height: 5px;
+    background: #000;
+}
+
+.cv .cv_right{
+    width: 530px; 
+    background: #A9A9A9;
+    padding: 25px;
+}
+
+.cv .cv_right{
+
